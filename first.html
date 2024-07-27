@@ -1,6 +1,9 @@
 <body>
     <head>
 <style>
+    body{
+        background-color: rgb(145, 151, 149);
+    }
 .btn{
     background-color: red;
     color: white;
@@ -11,12 +14,13 @@
     margin-right: 18px;
     font-size: 17px;
     cursor: pointer;
+    transition: 0.5s;
 }
-button:hover{
-    color:black;
+.btn:hover{
+   background-color:rgb(67, 158, 91);
     
 }
-button:active{
+.btn:active{
     color: rgb(55, 189, 55);
 }
 .join{
@@ -29,6 +33,7 @@ button:active{
     border-color: rgb(42, 118, 211);
     cursor: pointer; 
     margin-right: 10px;
+    transition: 0.4s;
 }
 .tweet{
     color:white;
@@ -40,16 +45,32 @@ button:active{
     cursor: pointer;
     font-weight: bold;
 }
-
+.join:hover{
+    background-color: blue;
+    color: white;
+}
+p.welcome-page{
+text-align:center ;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(145, 151, 149);
+    
+    
+    
+    }
 
 </style>
 </head>
+
+
+
 <button class="btn">Subscribe</button>
 
 <button class="join">Join</button>
 
 
 <button class="tweet">Tweet</button>
+
 
 
 </body>
