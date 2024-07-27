@@ -1,0 +1,33 @@
+.search-bar{
+    display: block;
+}
+
+.preview{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.topic{
+    font-size: 10px;
+    font-weight: bold;
+    
+    font-family: Arial, sans-serif;
+
+}
+.image{
+    width: 250px;
+}
+.channel{
+    font-size: 8px;
+    color:#606060;
+    line-height: 3px;
+    font-weight: bold;
+    
+}
+.stat{
+    font-size: 8px;
+    color:#606060;
+    line-height: 2px;
+    font-weight: bold;
+}
